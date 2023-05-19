@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
       </div>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        
+        <div><Link href='/about'>About Page</Link></div>
+        <div><Link href='/about/aboutMe'>Further intro about Me</Link></div>
       </div>
     </main>
   )
