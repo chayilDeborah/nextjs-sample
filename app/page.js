@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Home() {
@@ -18,6 +17,7 @@ export default function Home() {
         <div><Link href='/about'>About Page</Link></div>
         <div><Link href='/about/aboutMe'>Further intro about Me</Link></div>
       </div>
+
     </main>
   )
 }
