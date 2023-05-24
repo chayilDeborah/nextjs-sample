@@ -1,3 +1,8 @@
+export const metadata = {
+title: "About page",
+description: "this is to practice metadata"
+}
+
 const About = () => {
     return (
         <>
