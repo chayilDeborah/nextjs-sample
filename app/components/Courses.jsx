@@ -6,8 +6,7 @@ async function fetchCourses() {
     return courses
 }
 
-const Courses = async () => {
-    const courses = await fetchCourses();
+const Courses =  ({courses}) => {
   return (
     <div>
         {courses.map((course) => (
